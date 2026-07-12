@@ -3,10 +3,37 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:TesterApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="TesterApp"
+        Height="360"
+        Width="520"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFF8FAFC" Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
 
+        <StackPanel Margin="0,0,0,24">
+            <TextBlock FontSize="28" FontWeight="Bold" Text="TesterApp" />
+            <TextBlock Margin="0,8,0,0"
+                       FontSize="15"
+                       Foreground="#475569"
+                       Text="Open any of the three screens from the buttons below." />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center">
+            <Button Height="48"
+                    Margin="0,0,0,12"
+                    Click="OpenHomeScreen_Click"
+                    Content="Open Home Screen" />
+            <Button Height="48"
+                    Margin="0,0,0,12"
+                    Click="OpenNumberGeneratorScreen_Click"
+                    Content="Open Number Generator Screen" />
+            <Button Height="48"
+                    Click="OpenGoodbyeScreen_Click"
+                    Content="Open Goodbye Screen" />
+        </StackPanel>
     </Grid>
 </Window>
