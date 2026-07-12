@@ -1,0 +1,30 @@
+<Window x:Class="TesterApp.GoodbyeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TesterApp - Goodbye"
+        Width="500"
+        Height="320"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFF8FAFC" Margin="24">
+        <Border Padding="24"
+                Background="White"
+                BorderBrush="#CBD5E1"
+                BorderThickness="1"
+                CornerRadius="12">
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock HorizontalAlignment="Center"
+                           FontSize="30"
+                           FontWeight="Bold"
+                           Text="Goodbye!" />
+                <TextBlock Margin="0,16,0,0"
+                           HorizontalAlignment="Center"
+                           FontSize="18"
+                           Text="Thank you for using TesterApp." />
+                <TextBlock Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Foreground="#475569"
+                           Text="We hope to see you again soon." />
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
