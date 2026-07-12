@@ -1,0 +1,19 @@
+﻿<!-- Arrr! Here be the project manifest for the S.S. NumberPrinter! -->
+<!-- This here file tells the .NET SDK how to build our fine vessel. -->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Avast! These be the core settings for our ship's rigging. -->
+  <PropertyGroup>
+    <!-- OutputType: Exe means we be buildin' a runnable executable, not a library! -->
+    <OutputType>Exe</OutputType>
+    <!-- TargetFramework: We sail on the mighty .NET 10 seas! -->
+    <TargetFramework>net10.0</TargetFramework>
+    <!-- ImplicitUsings: Let the compiler bring in the common namespaces — less bilge to write! -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Nullable: Nullable reference types enabled — we don't tolerate ghost values on this ship! -->
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Yo ho ho! The treasure chest be empty — no extra packages needed for this voyage. -->
+
+</Project>
