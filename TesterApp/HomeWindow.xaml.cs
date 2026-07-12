@@ -1,6 +1,7 @@
 using System.Net.Http;
 using System.Text.Json;
 using System.Windows;
+using System.Linq;
 
 namespace TesterApp;
 
@@ -51,6 +52,22 @@ public partial class HomeWindow : Window
                 "Kenya is home to famous wildlife reserves such as the Maasai Mara, Mount Kenya, the Great Rift Valley, and thriving agricultural, tourism, and technology sectors.\n\n" +
                 "Please try again later when an internet connection is available.";
             StatusTextBlock.Text = "Wikipedia could not be reached, so a local summary is being shown.";
+        }
+
+        private void BackToMainButton_Click(object sender, RoutedEventArgs e)
+        {
+            var mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+            if (mainWindow is null)
+            {
+                mainWindow = new MainWindow();
+                mainWindow.Show();
+            }
+            else
+            {
+                mainWindow.Activate();
+            }
+
+            Close();
         }
     }
 }

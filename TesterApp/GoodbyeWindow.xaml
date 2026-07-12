@@ -6,7 +6,20 @@
         Height="320"
         WindowStartupLocation="CenterScreen">
     <Grid Background="#FFF8FAFC" Margin="24">
-        <Border Padding="24"
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button Width="100"
+                Height="34"
+                HorizontalAlignment="Left"
+                Click="BackToMainButton_Click"
+                Content="Back" />
+
+        <Border Grid.Row="1"
+                Margin="0,12,0,0"
+                Padding="24"
                 Background="White"
                 BorderBrush="#CBD5E1"
                 BorderThickness="1"

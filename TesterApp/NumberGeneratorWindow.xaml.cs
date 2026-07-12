@@ -1,4 +1,5 @@
 using System.Windows;
+using System.Linq;
 
 namespace TesterApp;
 
@@ -21,5 +22,21 @@ public partial class NumberGeneratorWindow : Window
             .Select(_ => Random.Shared.Next(0, 10).ToString());
 
         OutputTextBox.Text = string.Join(Environment.NewLine, digits);
+    }
+
+    private void BackToMainButton_Click(object sender, RoutedEventArgs e)
+    {
+        var mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+        if (mainWindow is null)
+        {
+            mainWindow = new MainWindow();
+            mainWindow.Show();
+        }
+        else
+        {
+            mainWindow.Activate();
+        }
+
+        Close();
     }
 }
