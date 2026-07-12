@@ -53,21 +53,21 @@ public partial class HomeWindow : Window
                 "Please try again later when an internet connection is available.";
             StatusTextBlock.Text = "Wikipedia could not be reached, so a local summary is being shown.";
         }
+    }
 
-        private void BackToMainButton_Click(object sender, RoutedEventArgs e)
+    private void BackToMainButton_Click(object sender, RoutedEventArgs e)
+    {
+        var mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+        if (mainWindow is null)
         {
-            var mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
-            if (mainWindow is null)
-            {
-                mainWindow = new MainWindow();
-                mainWindow.Show();
-            }
-            else
-            {
-                mainWindow.Activate();
-            }
-
-            Close();
+            mainWindow = new MainWindow();
+            mainWindow.Show();
         }
+        else
+        {
+            mainWindow.Activate();
+        }
+
+        Close();
     }
 }
