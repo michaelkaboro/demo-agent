@@ -13,9 +13,21 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <TextBlock FontSize="28"
-                   FontWeight="Bold"
-                   Text="Kenya Home Screen" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="28"
+                       FontWeight="Bold"
+                       Text="Kenya Home Screen" />
+            <Button Grid.Column="1"
+                    Width="100"
+                    Height="34"
+                    Click="BackToMainButton_Click"
+                    Content="Back" />
+        </Grid>
 
         <TextBlock x:Name="StatusTextBlock"
                    Grid.Row="1"

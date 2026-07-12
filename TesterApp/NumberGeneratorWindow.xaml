@@ -13,9 +13,21 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <TextBlock FontSize="28"
-                   FontWeight="Bold"
-                   Text="Number Generator" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="28"
+                       FontWeight="Bold"
+                       Text="Number Generator" />
+            <Button Grid.Column="1"
+                    Width="100"
+                    Height="34"
+                    Click="BackToMainButton_Click"
+                    Content="Back" />
+        </Grid>
 
         <TextBlock Grid.Row="1"
                    Margin="0,16,0,8"

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tcJ5fTPc5ac=",
+  "dgSpecHash": "ELNgSSz+ybk=",
   "success": true,
   "projectFilePath": "/home/runner/work/demo-agent/demo-agent/NumberPrinter/NumberPrinter.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/tmp/codeql-scratch-8b4f62cf30ce6a67/dbs/csharp/working/packages/microsoft.netcore.app.ref/10.0.9/microsoft.netcore.app.ref.10.0.9.nupkg.sha512",
+    "/tmp/codeql-scratch-8b4f62cf30ce6a67/dbs/csharp/working/packages/microsoft.windowsdesktop.app.ref/10.0.9/microsoft.windowsdesktop.app.ref.10.0.9.nupkg.sha512",
+    "/tmp/codeql-scratch-8b4f62cf30ce6a67/dbs/csharp/working/packages/microsoft.aspnetcore.app.ref/10.0.9/microsoft.aspnetcore.app.ref.10.0.9.nupkg.sha512",
+    "/tmp/codeql-scratch-8b4f62cf30ce6a67/dbs/csharp/working/packages/microsoft.netcore.app.host.linux-x64/10.0.9/microsoft.netcore.app.host.linux-x64.10.0.9.nupkg.sha512"
+  ],
   "logs": []
 }
