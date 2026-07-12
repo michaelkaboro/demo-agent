@@ -1,0 +1,15 @@
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/bin/Debug/net10.0/NumberPrinter
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/bin/Debug/net10.0/NumberPrinter.deps.json
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/bin/Debug/net10.0/NumberPrinter.runtimeconfig.json
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/bin/Debug/net10.0/NumberPrinter.dll
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/bin/Debug/net10.0/NumberPrinter.pdb
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/obj/Debug/net10.0/NumberPrinter.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/obj/Debug/net10.0/NumberPrinter.AssemblyInfoInputs.cache
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/obj/Debug/net10.0/NumberPrinter.AssemblyInfo.cs
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/obj/Debug/net10.0/NumberPrinter.csproj.CoreCompileInputs.cache
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/obj/Debug/net10.0/NumberPrinter.sourcelink.json
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/obj/Debug/net10.0/NumberPrinter.dll
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/obj/Debug/net10.0/refint/NumberPrinter.dll
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/obj/Debug/net10.0/NumberPrinter.pdb
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/obj/Debug/net10.0/NumberPrinter.genruntimeconfig.cache
+/home/runner/work/demo-agent/demo-agent/NumberPrinter/obj/Debug/net10.0/ref/NumberPrinter.dll
